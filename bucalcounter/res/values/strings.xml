@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bucalcounter</string>
+    <string name="title_activity_halls">Halls</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_enter__meal">Enter_Meal</string>
+    <string name="title_activity_global__variables">Global_Variables</string>
+    <string name="title_activity_daily__tracker">Daily_Tracker</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="org.bhina.bucalcounter.Meal_Menu"
+    android:background="#800000">
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:id="@+id/button6"
+        android:layout_marginTop="53dp"
+        android:clickable="true"
+        android:textColor="#4D0000"
+        android:width="250dp"
+        android:textSize= "20sp"
+        android:background="#fff"
+        android:layout_below="@+id/button13"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:clickable="true"
+        android:textColor="#4D0000"
+        android:width="250dp"
+        android:textSize= "20sp"
+        android:background="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:clickable="true"
+        android:textColor="#4D0000"
+        android:width="250dp"
+        android:textSize= "20sp"
+        android:background="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Meal Manually"
+        android:id="@+id/button9"
+        android:clickable="true"
+        android:textColor="#4D0000"
+        android:width="250dp"
+        android:textSize= "19.5sp"
+        android:background="#fff"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        android:id="@+id/button13"
+        android:width="75dp"
+        android:layout_alignTop="@+id/button14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff"
+        android:textColor="#4D0000"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/button14"
+        android:width="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#fff"
+        android:textColor="#4D0000"
+        android:clickable="true" />
+
+</RelativeLayout>
