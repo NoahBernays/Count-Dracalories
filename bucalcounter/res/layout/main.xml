@@ -34,7 +34,8 @@
         android:width="250dp"
         android:layout_below="@+id/textView3"
         android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignStart="@+id/button4"
+        android:background="#fff"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -47,7 +48,8 @@
         android:clickable="true"
         android:width="250dp"
         android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#fff"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,8 +63,8 @@
         android:textIsSelectable="false"
         android:textSize="40sp"
         android:textStyle="bold" />
-    
-     <Button
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="info"

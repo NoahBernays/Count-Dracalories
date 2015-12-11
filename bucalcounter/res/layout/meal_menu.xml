@@ -8,7 +8,7 @@
     tools:context="org.bhina.bucalcounter.Meal_Menu"
     android:background="#800000">
 
-<Button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Breakfast"
@@ -70,6 +70,7 @@
         android:text="Calendar"
         android:id="@+id/button13"
         android:width="75dp"
+        android:textSize="12.5sp"
         android:layout_alignTop="@+id/button14"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -89,5 +90,6 @@
         android:background="#fff"
         android:textColor="#4D0000"
         android:clickable="true" />
+
 
 </RelativeLayout>

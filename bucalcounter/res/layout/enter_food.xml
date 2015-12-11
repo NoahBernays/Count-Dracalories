@@ -3,12 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#800000"
-    tools:context="org.bhina.bucalcounter.enter_food">
+
+    tools:context="org.bhina.bucalcounter.Enter_Food"
+    android:background="#800000">
 
     <Button
         android:layout_width="wrap_content"
@@ -71,6 +68,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:clickable="true"
-        android:background="#fff" />
+        android:background="#fff"
+         />
+    
 
 </RelativeLayout>

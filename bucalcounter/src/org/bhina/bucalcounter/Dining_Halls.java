@@ -15,15 +15,15 @@ public class Dining_Halls extends Activity implements android.view.View.OnClickL
 	private Button homebutton;
 	private Button calendarbutton; 
 	
-
+	@Override 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dining_halls);
 		
 		
-		warrenbutton = (Button) findViewById(R.id.button6);
-		westbutton = (Button) findViewById(R.id.button7);
-		marcianobutton = (Button) findViewById(R.id.button8);
+		warrenbutton = (Button) findViewById(R.id.button7);
+		westbutton = (Button) findViewById(R.id.button8);
+		marcianobutton = (Button) findViewById(R.id.button6);
 		calendarbutton = (Button) findViewById(R.id.button10);
 		homebutton = (Button) findViewById(R.id.button11);
 		
@@ -43,7 +43,7 @@ public class Dining_Halls extends Activity implements android.view.View.OnClickL
 	
 		switch(v.getId()){
 		
-		case R.id.button6:{ //button6 is warren button 
+		case R.id.button7:{ //button7 is warren button 
 			
 			Global_Variables.sethall('n'); // warreN; 
 			
@@ -53,7 +53,7 @@ public class Dining_Halls extends Activity implements android.view.View.OnClickL
 			
 		}
 		
-		case R.id.button7:{ //button7 is west button 
+		case R.id.button8:{ //button8 is west button 
 			
 			Global_Variables.sethall('t');// wesT 
 			
@@ -62,7 +62,7 @@ public class Dining_Halls extends Activity implements android.view.View.OnClickL
 			break;
 			
 		}
-		case R.id.button8:{ //button8 is marciano button 
+		case R.id.button6:{ //button6 is marciano button 
 			
 			Global_Variables.sethall('o'); //marcianO 
 			
@@ -79,7 +79,6 @@ public class Dining_Halls extends Activity implements android.view.View.OnClickL
 				
 			}
 		case R.id.button11:{ //button11 is home button 
-			
 			
 			Intent gotohome = new Intent(Dining_Halls.this, Main.class); 
 			startActivity(gotohome); 

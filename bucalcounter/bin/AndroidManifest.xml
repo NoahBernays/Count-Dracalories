@@ -55,9 +55,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Daily_Tracker"
-            android:label="@string/title_activity_daily__tracker" >
+        <activity android:name=".Summary" >
+            <intent-filter>
+                <action android:name="android.intent.action.SUMMARY" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".Manual_Entry" >
+             <intent-filter>
+                <action android:name="android.intent.action.SUMMARY" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

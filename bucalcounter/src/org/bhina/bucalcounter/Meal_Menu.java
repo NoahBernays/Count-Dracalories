@@ -87,7 +87,7 @@ public class Meal_Menu extends Activity implements android.view.View.OnClickList
 			
 			Global_Variables.setmeal('m');
 			
-			Intent gotofood= new Intent(Meal_Menu.this, Enter_Food.class); 
+			Intent gotofood= new Intent(Meal_Menu.this, Manual_Entry.class); 
 			startActivity(gotofood); 
 			break;
 			
