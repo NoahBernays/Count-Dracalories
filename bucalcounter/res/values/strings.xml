@@ -8,5 +8,7 @@
     <string name="title_activity_enter__meal">Enter_Meal</string>
     <string name="title_activity_global__variables">Global_Variables</string>
     <string name="title_activity_daily__tracker">Daily_Tracker</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_manual__entry">Manual_Entry</string>
 
 </resources>
